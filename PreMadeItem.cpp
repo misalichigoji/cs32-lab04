@@ -1,3 +1,4 @@
+#include <string>
 #include <iomanip>
 #include <sstream>
 #include "IceCreamItem.h"

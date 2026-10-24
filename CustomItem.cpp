@@ -1,6 +1,8 @@
 #include "IceCreamItem.h"
 #include "CustomItem.h"
+#include <string>
 #include <iomanip>
+#include <sstream>
 
 CustomItem::CustomItem(std::string s) : IceCreamItem(s){}
 

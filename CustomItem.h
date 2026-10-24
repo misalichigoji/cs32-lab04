@@ -1,6 +1,7 @@
 #ifndef CUSTOMITEM_H
 #define CUSTOMITEM_H
 #include <map>
+#include <string>
 #include "IceCreamItem.h"
 
 class CustomItem : public IceCreamItem
