@@ -7,15 +7,18 @@ IceCreamItem::IceCreamItem(std::string size)
     {
         price = 3;
         this->size = size;
-    } else if (size == "medium")
+    } 
+    else if (size == "medium")
     {
         price = 5;
         this->size = size;
-    } else if (size == "large")
+    } 
+    else if (size == "large")
     {
         price = 6.5;
         this->size = size;
-    } else {
+    } else 
+    {
         throw std::runtime_error("size must be small, medium, or large");
     }
 }
